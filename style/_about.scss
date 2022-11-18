@@ -1,0 +1,16 @@
+
+.about{
+    background: #F6F6F6;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    &__title{
+        margin-top: 0;
+    }
+    &__subtitle{
+        line-height: 22px;
+        text-align: center;
+    }
+    &__subtitle:last-child{
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,222 @@
+@font-face {
+  font-family: "Gilroy Bold Italic";
+  src: url("../fonts/Gilroy-BoldItalic.eot");
+  src: url("../fonts/Gilroy-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-BoldItalic.woff") format("woff"), url("../fonts/Gilroy-BoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy Medium";
+  src: url("../fonts/Gilroy-Medium.eot");
+  src: url("../fonts/Gilroy-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+header {
+  margin-bottom: 40px;
+}
+
+.nav {
+  border-bottom: 1px solid #828282;
+}
+.nav__list {
+  margin-top: 33px;
+  margin-bottom: 31px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.nav__link {
+  text-decoration: none;
+  color: #828282;
+  font-weight: 700;
+}
+.nav__link:hover, .nav__link:active {
+  color: #070707;
+}
+
+body, html {
+  font-family: "Gilroy Medium";
+  font-size: 18px;
+  color: #070707;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.title {
+  color: #070707;
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+}
+
+main {
+  margin-bottom: 105px;
+}
+
+.main__description {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 54px;
+  align-items: flex-end;
+}
+.main__title {
+  font-weight: 700;
+  font-size: 47px;
+  width: 195px;
+  margin: 0;
+}
+.main__text {
+  width: 200px;
+  margin: 0;
+}
+.main__links {
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+.main__link {
+  font-size: 16px;
+  font-weight: 700;
+  color: #828282;
+  text-decoration: none;
+}
+.main__link__active {
+  color: #070707;
+}
+.main__link:first-child::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 2.7px;
+  background-color: #070707;
+}
+.main__image {
+  width: 100%;
+}
+
+.about {
+  background: #F6F6F6;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+.about__title {
+  margin-top: 0;
+}
+.about__subtitle {
+  line-height: 22px;
+  text-align: center;
+}
+.about__subtitle:last-child {
+  margin-bottom: 0;
+}
+
+.skills {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+.skills__title {
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+.skills__subtitle {
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 53px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.cards__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.cards__image {
+  height: 88px;
+}
+.cards__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  color: #828282;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.portfolio {
+  background: #F6F6F6;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+.portfolio__title {
+  margin-bottom: 47px;
+  margin-top: 0;
+}
+.portfolio__work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.portfolio__image {
+  width: 100%;
+}
+.portfolio__link {
+  color: #070707;
+  text-align: center;
+  margin-top: 44px;
+}
+.portfolio__work:not(:last-child) {
+  margin-bottom: 99px;
+}
+
+.footer {
+  margin-top: 114px;
+  text-align: center;
+}
+.footer__title {
+  margin-top: 0;
+  margin-bottom: 47px;
+}
+.footer__subtitle {
+  margin: 0;
+}
+.footer__button {
+  margin-top: 29px;
+  margin-bottom: 85px;
+  padding: 13px 29px;
+  background: #070707;
+  border-radius: 50px;
+  border: 2px #070707 solid;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 15px 15px 30px 1px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s linear;
+}
+.footer__button:hover {
+  background: #fff;
+  color: #070707;
+  border: 2px #070707 solid;
+}
+.footer__social {
+  margin-bottom: 45px;
+}
+.footer__img:not(:first-child) {
+  margin-left: 60px;
+}
+.footer__text {
+  color: #828282;
+  font-size: 14px;
+  margin-bottom: 123px;
+}/*# sourceMappingURL=style.css.map */

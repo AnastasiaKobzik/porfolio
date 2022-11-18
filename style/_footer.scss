@@ -1,0 +1,41 @@
+.footer{
+    margin-top: 114px;
+    text-align: center;
+    &__title{
+        margin-top: 0;
+        margin-bottom: 47px;
+    }
+    &__subtitle{
+        margin: 0;
+    }
+    &__button{
+        margin-top: 29px;
+        margin-bottom: 85px;
+        padding: 13px 29px;
+        background: #070707;
+        border-radius: 50px;
+        border: 2px #070707 solid;
+        color: #fff;
+        font-weight: 700;
+        cursor: pointer;
+        box-shadow: 15px 15px 30px 1px rgb(0, 0, 0, 0.2);
+        transition: all .2s linear;
+        &:hover{
+            background: #fff;
+            color: #070707;
+            border: 2px #070707 solid;
+        }
+    }
+    &__social{
+        margin-bottom: 45px;
+    }
+    &__img:not(:first-child){
+        margin-left: 60px;
+    }
+    &__text{
+        color: #828282;
+        font-size: 14px;
+        margin-bottom: 123px;
+    }
+
+}
